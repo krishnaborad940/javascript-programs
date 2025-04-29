@@ -1,10 +1,7 @@
 
 let UserName=prompt("enter your Name:-")
-let a='@'+UserName;
-let b=13
+let a='@'+UserName+UserName.length;
 
 
-let ans=a.concat(b)
 
-
-console.log("user name is"+ans);
+console.log("user name is:-"+a);
